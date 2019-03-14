@@ -37,6 +37,14 @@ Now we can search these projects by first joining forks via shared commits:
 
 ```
 
+Then we can select recently active projects with no patch:
+```
+```
+
+Furthermore, we can find the original affected blobs for [td]1_both\.c and see where they may be now
+```
+```
+
 # References
 
 The key commit:
@@ -44,4 +52,4 @@ https://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=96db9023b881d7cd9f379b0
 
 https://nvd.nist.gov/vuln/detail/CVE-2014-0160
 
-https:hartbleed.org
+https://hartbleed.org
