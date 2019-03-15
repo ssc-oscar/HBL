@@ -34,12 +34,20 @@ zcat p2cHBN.gz | perl getTime.perl  > p2tHBN
 
 Now we can search these projects by first joining forks via shared commits:
 ```
+zcat p2cHBN.gz|perl -ane 'chop();($p,$n,@cs)=split(/;/);for my $c (@cs) {print "$c;$p\n";}' | lsort 30G -t\; -k1b,2 -u | gzip > c2pHBNFull.gz
+zcat c2pHBNFull.gz | perl $HOME/lookup/connectExportPre.perl | gzip > c2pHBNFull.p2p
+zcat c2pHBNFull.p2p | perl $HOME/lookup/connectExportSrt.perl c2pHBNFull
+zcat c2pHBNFull.versions1| ~/bin/connect | gzip > c2pHBNFul.clones
+perl $HOME/lookup/connectImport.perl c2pHBNFull | gzip > c2pHBNFull.map
 
 ```
 
-Then we can select recently active projects with no patch:
+Then we can select the most recently active projects from each fork with no patch (by filtering on the last change of [td]1_both\.c):
 ```
+perl map.perl   | sort -t\; -rk4 > unforked
 ```
+The format is canonical name (for a fork), project url, number of commits, date of last commit (unix seconds), date of
+last commit affecting  [td]1_both\.c, and number of authors.
 
 Furthermore, we can find the original affected blobs for [td]1_both\.c and see where they may be now
 ```
