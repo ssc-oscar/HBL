@@ -1,5 +1,4 @@
-# HartBleed - What is still vulnerable?
-
+# HartBleed - What is still vulnerable? What Really Happened?
 
 The vulnerability in OpenSSL has been fixed, but how much code in
 public repositories is still not fixed?
