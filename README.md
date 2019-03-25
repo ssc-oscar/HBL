@@ -4,32 +4,31 @@ The vulnerability in OpenSSL has been fixed, but how much code in
 public repositories is still not fixed?
 
 The following repositories might contain vulnerable code and have been modified recently, threfore may be in active use:
-```
-name;url;Number of Commits;last commit;last ssl commit;Number of authors
-nexe_nexe;https://github.com/nexe/nexe;853;2019-02-21;2012-11-30;71
-zhgn_OpenBoard;https://github.com/OpenBoard-org/OpenBoard;3696;2019-02-20;2011-05-19;91
-rZn_ad-away;https://github.com/AdAway/AdAway;1445;2019-02-16;2012-02-20;77
-vvw_ssh2;https://github.com/mscdex/ssh2;999;2019-01-23;2012-08-07;69
-bb_dilosdilos-illumos;https://bitbucket.org/dilosdilos-illumos;27580;2019-01-15;2014-09-11;1848
-ly0_proxydroid;https://github.com/madeye/proxydroid;136;2018-12-19;2014-10-21;21
-matsu_bitvisor;https://github.com/matsu/bitvisor;275;2018-12-19;2014-05-09;10
-wangandmu_c;https://github.com/cSploit/android;1715;2018-12-17;2013-11-05;105
-jmarco_eneboo;https://github.com/eneboo/eneboo-core;791;2018-12-16;2011-09-29;21
-bb_RehabManclover;https://bitbucket.org/RehabManclover;5019;2018-11-09;2013-12-03;20
-XuNazgul_cmpe295A;https://github.com/buaales/barrelfish-les;6089;2018-10-28;2012-05-08;74
-kans_virgo;https://github.com/virgo-agent-toolkit/rackspace-monitoring-agent;8363;2018-10-15;2012-03-12;75
-genba_CoreBitcoin;https://github.com/oleganza/CoreBitcoin;662;2018-10-10;2014-02-16;37
-LuaDist_openssl;https://github.com/LuaDist/openssl;24;2018-08-08;2011-07-01;6
-bb_dilosillumos-nexenta-mirror;https://bitbucket.org/dilosillumos-nexenta-mirror;19135;2018-08-07;2014-09-15;1817
-mei3am_ps;https://github.com/zengge2/Psiphon3;15185;2018-07-25;2012-03-15;43
-ehyea_coding;https://github.com/guoliqiang/coding;594;2018-07-18;2013-07-12;5
-jief666_Clover;https://github.com/jief666/Clover;4516;2018-06-10;2013-12-03;21
-hh_omnibus;https://github.com/opscode/omnibus;3574;2018-04-15;2010-08-18;230
-bb_kbenginekbengine;https://bitbucket.org/kbenginekbengine;2128;2018-04-02;2012-04-03;6
-tal-m_scapi;https://github.com/cryptobiu/scapi;3261;2018-01-08;2014-07-06;30
-ezc_appengine-php;https://github.com/GoogleCloudPlatform/appengine-php;6;2018-01-08;2013-09-19;3
-```
 
+|name|url|Number of Commits|last commit|last ssl commit|Number of authors|
+|----|---|---|---|---|
+|nexe_nexe|https://github.com/nexe/nexe|853|2019-02-21|2012-11-30|71|
+|zhgn_OpenBoard|https://github.com/OpenBoard-org/OpenBoard|3696|2019-02-20|2011-05-19|91|
+|rZn_ad-away|https://github.com/AdAway/AdAway|1445|2019-02-16|2012-02-20|77|
+|vvw_ssh2|https://github.com/mscdex/ssh2|999|2019-01-23|2012-08-07|69|
+|bb_dilosdilos-illumos|https://bitbucket.org/dilosdilos-illumos|27580|2019-01-15|2014-09-11|1848|
+|ly0_proxydroid|https://github.com/madeye/proxydroid|136|2018-12-19|2014-10-21|21|
+|matsu_bitvisor|https://github.com/matsu/bitvisor|275|2018-12-19|2014-05-09|10|
+|wangandmu_c|https://github.com/cSploit/android|1715|2018-12-17|2013-11-05|105|
+|jmarco_eneboo|https://github.com/eneboo/eneboo-core|791|2018-12-16|2011-09-29|21|
+|bb_RehabManclover|https://bitbucket.org/RehabManclover|5019|2018-11-09|2013-12-03|20|
+|XuNazgul_cmpe295A|https://github.com/buaales/barrelfish-les|6089|2018-10-28|2012-05-08|74|
+|kans_virgo|https://github.com/virgo-agent-toolkit/rackspace-monitoring-agent|8363|2018-10-15|2012-03-12|75|
+|genba_CoreBitcoin|https://github.com/oleganza/CoreBitcoin|662|2018-10-10|2014-02-16|37|
+|LuaDist_openssl|https://github.com/LuaDist/openssl|24|2018-08-08|2011-07-01|6|
+|bb_dilosillumos-nexenta-mirror|https://bitbucket.org/dilosillumos-nexenta-mirror|19135|2018-08-07|2014-09-15|1817|
+|mei3am_ps|https://github.com/zengge2/Psiphon3|15185|2018-07-25|2012-03-15|43|
+|ehyea_coding|https://github.com/guoliqiang/coding|594|2018-07-18|2013-07-12|5|
+|jief666_Clover|https://github.com/jief666/Clover|4516|2018-06-10|2013-12-03|21|
+|hh_omnibus|https://github.com/opscode/omnibus|3574|2018-04-15|2010-08-18|230|
+|bb_kbenginekbengine|https://bitbucket.org/kbenginekbengine|2128|2018-04-02|2012-04-03|6|
+|tal-m_scapi|https://github.com/cryptobiu/scapi|3261|2018-01-08|2014-07-06|30|
+|ezc_appengine-php|https://github.com/GoogleCloudPlatform/appengine-php|6|2018-01-08|2013-09-19|3|
 
 
 With WoC we set out to answer the question and provide ways to
