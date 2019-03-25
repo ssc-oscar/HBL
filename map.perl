@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+use Date::Format;
 
 my %mp;
 open A, "zcat c2pHBNFull.map|";
@@ -13,8 +14,10 @@ my %cl;
 open A, "p2tHBN";
 while (<A>){
   chop();
-  my $s = $_;
   my ($p, @x) = split(/;/);
+  $x[1] = time2str ("%Y-%m-%d",$x[1]);
+  $x[2] = time2str ("%Y-%m-%d",$x[2]);
+  my $s = join ';', ($p, @x);
   my $lc = $x[1];
   next if $lc eq ""; 
   $p =~ s|^https://github.com/||;   
@@ -33,7 +36,7 @@ while (<A>){
 }
 
 for my $p (keys %cl){
-  my @ps1 = sort { $cl{$p}{$b}{lc} <=> $cl{$p}{$a}{lc} } (keys %{$cl{$p}});
+  my @ps1 = sort { $cl{$p}{$b}{lc} cmp $cl{$p}{$a}{lc} } (keys %{$cl{$p}});
   print "$p;$cl{$p}{$ps1[0]}{c}\n";
 }
   
