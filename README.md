@@ -6,7 +6,7 @@ public repositories is still not fixed?
 The following repositories might contain vulnerable code and have been modified recently, threfore may be in active use:
 
 |name|url|Number of Commits|last commit|last ssl commit|Number of authors|
-|----|---|---|---|---|
+|----|---|---|---|---|--|
 |nexe_nexe|https://github.com/nexe/nexe|853|2019-02-21|2012-11-30|71|
 |zhgn_OpenBoard|https://github.com/OpenBoard-org/OpenBoard|3696|2019-02-20|2011-05-19|91|
 |rZn_ad-away|https://github.com/AdAway/AdAway|1445|2019-02-16|2012-02-20|77|
