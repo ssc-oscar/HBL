@@ -5,7 +5,9 @@
 While the vulnerability in OpenSSL has been [fixed](https://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=96db9023b881d7cd9f379b0c154650d6c108e9a3), but how much code in
 public repositories is still not fixed?
 
-The following repositories might contain vulnerable code and have been modified recently, threfore may be in active use:
+The following repositories might contain vulnerable code (the latest change is pre-2015) 
+and they also have been modified recently, threfore they may still be in active use.
+If that is the case, is that code vulnerable and would they consider accepting a patch?
 
 |name|url|Number of Commits|last commit|last ssl commit|Number of authors|
 |----|---|---|---|---|--|
