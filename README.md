@@ -1,6 +1,8 @@
 # HartBleed - What is still vulnerable? What Really Happened?
 
-The vulnerability in OpenSSL has been fixed, but how much code in
+[The history of HartBleed is fascinating](https://motherboard.vice.com/en_us/article/43zak3/the-internet-was-built-on-the-free-labor-of-open-source-developers-is-that-sustainable?utm_source=hs_email&utm_medium=email&utm_content=70099471)
+
+While the vulnerability in OpenSSL has been [fixed](https://git.openssl.org/gitweb/?p=openssl.git;a=commit;h=96db9023b881d7cd9f379b0c154650d6c108e9a3), but how much code in
 public repositories is still not fixed?
 
 The following repositories might contain vulnerable code and have been modified recently, threfore may be in active use:
